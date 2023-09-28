@@ -101,3 +101,63 @@ body{
     text-decoration-line: underline;
     color: #124086;
 }
+
+/* content */
+
+.text-1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-2{
+    margin-top: 28px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.iconify{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 18px;
+    margin-left: 335px;
+    width: 35px;
+    height: 35px;
+    color: #003048;
+}
+
+.contact-info{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #003048;
+}
+
+.second-email{
+    display: block; 
+    margin-left: 395px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #003048;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #003048;
+    text-decoration: none !important;
+}
