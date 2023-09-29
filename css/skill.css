@@ -101,3 +101,30 @@ body{
     text-align: center;
     color: rgba(18, 64, 134, 0.67);
 }
+
+/* content */
+
+/* .container-skill{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    max-width: 950px;
+    border-radius: 50px;
+    background-color: #FFFF;
+} */
+
+.container-skill {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}

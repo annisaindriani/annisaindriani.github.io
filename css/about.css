@@ -104,7 +104,7 @@ body{
 
 /* content */
 
-#content-about{
+#container-about{
     margin-top: 150px;
     margin-bottom: 80px;
     margin-left: auto;
@@ -115,7 +115,7 @@ body{
     background-color: #FFFF;
 }
 
-#content-about h1{
+#container-about h1{
     margin-left: 35px;
     font-weight: 700;
     font-size: 35px;
@@ -126,7 +126,7 @@ body{
     background-clip: text;
 }
 
-#content-about h1::after{
+#container-about h1::after{
     content: "";
     display: block;
     width: 20%;
@@ -146,7 +146,7 @@ body{
     color: #2E4A64;
 }
 
-#content-edu{
+#container-edu{
     margin-top: 10px;
     margin-bottom: 80px;
     margin-left: auto;
@@ -157,7 +157,7 @@ body{
     background-color: #FFFF;
 }
 
-#content-edu h1{
+#container-edu h1{
     margin-left: 35px;
     font-weight: 700;
     font-size: 35px;
@@ -168,7 +168,7 @@ body{
     background-clip: text;
 }
 
-#content-edu h1::after{
+#container-edu h1::after{
     content: "";
     display: block;
     width: 21%;
@@ -185,7 +185,7 @@ body{
     width: 92%;
 }
 
-#content-info{
+#container-info{
     margin-top: 10px;
     margin-bottom: 80px;
     margin-left: auto;
@@ -199,7 +199,7 @@ body{
     flex-direction: column;
 }
 
-#content-info h1{
+#container-info h1{
     margin-left: 35px;
     font-weight: 700;
     font-size: 35px;
@@ -210,7 +210,7 @@ body{
     background-clip: text;
 }
 
-#content-info h1::after{
+#container-info h1::after{
     content: "";
     display: block;
     width: 25%;

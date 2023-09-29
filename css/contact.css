@@ -105,9 +105,9 @@ body{
 /* content */
 
 .text-1{
-    margin-top: 120px;
-    margin-bottom: 20px;
-    font-weight: 500;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -127,10 +127,11 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-top: 18px;
-    margin-left: 335px;
+    margin-left: 450px;
     width: 35px;
     height: 35px;
-    color: #003048;
+    color: #FFFFFF;
+    /* color: #003048; */
 }
 
 .contact-info{
@@ -139,21 +140,23 @@ body{
     margin-top: 15px;
     margin-left: 20px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     text-decoration: underline;
-    color: #003048;
+    color: #FFFFFF;
+    /* color: #003048; */
 }
 
 .second-email{
     display: block; 
-    margin-left: 395px;
+    margin-left: 510px;
     margin-top: 10px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     text-decoration: underline;
-    color: #003048;
+    color: #FFFFFF;
+    /* color: #003048; */
 }
 
 .highlight{
