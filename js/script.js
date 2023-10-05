@@ -1,3 +1,15 @@
+/* function show pop up message */
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Show the popup when the page loads
+     document.getElementById('popup-overlay').style.display = 'flex';
+});
+
+function closePopup() {
+    // Close the popup when the Close button is clicked
+        document.getElementById('popup-overlay').style.display = 'none';
+    }
+
 /* function update greetings text */
 
 function updateGreeting(){
