@@ -77,6 +77,10 @@ html, body{
     font-weight: bold;
 }
 
+.hidden-text{
+    display: none;
+}
+
 .org-name{
     font-weight: bold;
 }
