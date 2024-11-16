@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     // Load navbar.html
-    fetch("navbar.html")
+    fetch("web/navbar.html")
         .then(response => response.text())
         .then(data => {
             document.getElementById("navbar").innerHTML = data;
             setActiveNavLink();
             updateGreeting();
             setInterval(updateGreeting, 60000); // Update setiap 60 detik
-        });
+    });
 
     // Load footer.html
-    fetch("footer.html")
+    fetch("web/footer.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("footer").innerHTML = data;
