@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-color: rgba(118, 148, 176, 1);
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar-wrapper{
+    background-color: white !important;
+}
+
+#greetings{
+    font-weight: 600;
+    line-height: 24px; 
+    color: rgba(18, 64, 134, 0.67);
+}
+
+.nav-link{
+    font-weight: 600;
+    color: rgba(18, 64, 134, 0.67);
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    color: #124086;
+}
+
+.nav-link.active{
+    text-decoration-line: underline;
+    color: #124086;
+}
+
+.footer{
+    width: 100%;
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+}
+
+.home-content{
+    color: rgba(245, 245, 245, 1);
+}
+
+.home-content h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #2e4a64;
+}
+
+.about-content{
+    color: white;
+}
+
+.about-content h3{
+    font-weight: bold;
+}
+
+.org-name{
+    font-weight: bold;
+}
+
+.org-desc{
+    font-size: 15px;
+    font-weight: 500;
+    color: #00283f;
+}
+
+.toggle-button{
+    color: #e6f4f1; 
+    font-size: 0.8em;
+}
+
+.toggle-button:hover{
+    cursor: pointer; 
+}
+
+i.direct-link:hover{
+    color: white !important;
+}
+
+.skills-content{
+    color: #00283f;
+    font-weight: 500;
+}
+
+.skills-content h3{
+    color: white;
+    font-weight: bold;
+}
+
+.skills-list{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.badge{
+    color: #00283f;
+}
+
+.projects-content h3{
+    color: white;
+    font-weight: bold;
+}
+
+.card{
+    color: #00283f;
+}
+
+.contact-content{
+    color: white;
+}
+
+.contact-content a{
+    color: #00283f;
+}
+
+
+/* .small-text{
+    color: #3a4856;
+    font-size: 13px;
+} */
+
