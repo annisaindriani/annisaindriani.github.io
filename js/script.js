@@ -51,6 +51,45 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    // Function untuk menampilkan efek typewriter pada nama
+    const typeWords = ["Annisa Indriani", "Indri"];
+    let typeIndex = 0;
+    let charIndex = 0;
+    let currentText = "";
+    let deleting = false;
+    const typeSpeed = 150;
+    const typePause = 1000;
+
+    function typeEffect() {
+        const target = document.getElementById("typewriter");
+        const word = typeWords[typeIndex];
+
+        if (!deleting) {
+            currentText = word.substring(0, charIndex + 1);
+            charIndex++;
+            target.textContent = currentText;
+            if (currentText === word) {
+                deleting = true;
+                setTimeout(typeEffect, typePause);
+                return;
+            }
+        } else {
+            currentText = word.substring(0, charIndex - 1);
+            charIndex--;
+            target.textContent = currentText;
+            if (currentText === "") {
+                deleting = false;
+                typeIndex = (typeIndex + 1) % typeWords.length;
+            }
+        }
+        setTimeout(typeEffect, typeSpeed);
+    }
+    
+    const typewriterElement = document.getElementById("typewriter");
+    if (typewriterElement) {
+        typeEffect();
+    }
+
     // Function untuk menampilkan teks tersembunyi saat tombol toggle diklik
     const toggleButtons = document.querySelectorAll('.toggle-button');
     const hiddenTexts = document.querySelectorAll('.hidden-text');

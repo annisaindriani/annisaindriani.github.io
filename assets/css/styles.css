@@ -98,6 +98,7 @@ html, body{
 
 .toggle-button:hover{
     cursor: pointer; 
+    color: #00283f;
 }
 
 i.direct-link:hover{
